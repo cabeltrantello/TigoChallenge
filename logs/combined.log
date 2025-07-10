@@ -1,0 +1,3 @@
+2025-07-10T16:30:23.639Z [INFO]: Middleware initialized
+2025-07-10T16:31:54.859Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-10T16:32:07.777Z [INFO]: Middleware initialized
