@@ -15,3 +15,1469 @@
 2025-07-11T06:21:50.751Z [ERROR]: Controller error: validate is not a function
 2025-07-11T06:21:50.755Z [INFO]: ::1 - - [11/Jul/2025:06:21:50 +0000] "POST /admin/mocks HTTP/1.1" 500 99 "-" "curl/8.5.0"
 2025-07-11T06:22:09.815Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T06:23:25.180Z [INFO]: Middleware initialized
+2025-07-11T06:28:31.839Z [INFO]: Middleware initialized
+2025-07-11T06:28:53.368Z [ERROR]: Controller error: validate is not a function
+2025-07-11T06:28:53.373Z [INFO]: ::1 - - [11/Jul/2025:06:28:53 +0000] "POST /admin/mocks HTTP/1.1" 500 99 "-" "curl/8.5.0"
+2025-07-11T06:32:10.805Z [ERROR]: Controller error: validate is not a function
+2025-07-11T06:32:10.806Z [INFO]: ::1 - - [11/Jul/2025:06:32:10 +0000] "POST /admin/mocks HTTP/1.1" 500 99 "-" "curl/8.5.0"
+2025-07-11T06:32:24.629Z [ERROR]: Controller error: validate is not a function
+2025-07-11T06:32:24.633Z [INFO]: ::1 - - [11/Jul/2025:06:32:24 +0000] "POST /admin/mocks HTTP/1.1" 500 99 "-" "curl/8.5.0"
+2025-07-11T06:33:53.490Z [INFO]: Middleware initialized
+2025-07-11T06:34:04.170Z [ERROR]: Controller error: validate is not a function
+2025-07-11T06:34:04.178Z [INFO]: ::1 - - [11/Jul/2025:06:34:04 +0000] "POST /admin/mocks HTTP/1.1" 500 99 "-" "curl/8.5.0"
+2025-07-11T06:34:19.895Z [INFO]: ::1 - - [11/Jul/2025:06:34:19 +0000] "GET /admin/mocks HTTP/1.1" 200 2 "-" "curl/8.5.0"
+2025-07-11T06:34:40.176Z [INFO]: Middleware initialized
+2025-07-11T06:34:43.974Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T06:39:04.262Z [INFO]: Middleware initialized
+2025-07-11T06:39:16.915Z [INFO]: Created mock: GET /api/users
+2025-07-11T06:39:35.254Z [INFO]: Middleware initialized
+2025-07-11T06:39:45.974Z [INFO]: Created mock: GET /api/users
+2025-07-11T06:46:12.792Z [INFO]: Middleware initialized
+2025-07-11T06:46:21.710Z [INFO]: Created mock: GET /api/users
+2025-07-11T06:52:22.462Z [INFO]: Middleware initialized
+2025-07-11T06:52:31.395Z [INFO]: Created mock: GET /api/users
+2025-07-11T06:52:31.403Z [INFO]: ::1 - - [11/Jul/2025:06:52:31 +0000] "POST /admin/mocks HTTP/1.1" 201 364 "-" "curl/8.5.0"
+2025-07-11T06:52:31.737Z [INFO]: Middleware initialized
+2025-07-11T06:53:02.657Z [INFO]: Created mock: GET /api/users
+2025-07-11T06:53:02.667Z [INFO]: ::1 - - [11/Jul/2025:06:53:02 +0000] "POST /admin/mocks HTTP/1.1" 201 364 "-" "curl/8.5.0"
+2025-07-11T06:53:02.989Z [INFO]: Middleware initialized
+2025-07-11T06:53:15.481Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T06:53:15.488Z [INFO]: ::1 - - [11/Jul/2025:06:53:15 +0000] "GET /api/users HTTP/1.1" 500 99 "-" "curl/8.5.0"
+2025-07-11T06:53:27.516Z [INFO]: ::1 - - [11/Jul/2025:06:53:27 +0000] "GET /admin/logs HTTP/1.1" 200 2 "-" "curl/8.5.0"
+2025-07-11T06:53:54.177Z [INFO]: Middleware initialized
+2025-07-11T06:53:59.392Z [INFO]: Created mock: GET /api/users
+2025-07-11T06:53:59.400Z [INFO]: ::1 - - [11/Jul/2025:06:53:59 +0000] "POST /admin/mocks HTTP/1.1" 201 364 "-" "curl/8.5.0"
+2025-07-11T06:54:52.452Z [INFO]: Middleware initialized
+2025-07-11T06:55:16.585Z [INFO]: Created mock: GET /api/users
+2025-07-11T06:55:16.592Z [INFO]: ::1 - - [11/Jul/2025:06:55:16 +0000] "POST /admin/mocks HTTP/1.1" 201 364 "-" "curl/8.5.0"
+2025-07-11T06:55:16.881Z [INFO]: Middleware initialized
+2025-07-11T14:47:34.246Z [INFO]: Middleware initialized
+2025-07-11T14:48:45.671Z [INFO]: Middleware initialized
+2025-07-11T14:49:04.505Z [ERROR]: Validation Error: "path" is required; "method" is required; "response" is required
+2025-07-11T14:49:04.505Z [ERROR]: Controller error: "path" is required; "method" is required; "response" is required
+2025-07-11T14:49:04.510Z [INFO]: ::1 - - [11/Jul/2025:14:49:04 +0000] "POST /admin/mocks HTTP/1.1" 500 99 "-" "curl/8.5.0"
+2025-07-11T14:50:16.550Z [INFO]: Created mock: GET /api/users
+2025-07-11T14:50:16.554Z [INFO]: ::1 - - [11/Jul/2025:14:50:16 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T14:50:54.839Z [ERROR]: Validation Error: "path" is required; "response" is required
+2025-07-11T14:50:54.839Z [ERROR]: Controller error: "path" is required; "response" is required
+2025-07-11T14:50:54.840Z [INFO]: ::1 - - [11/Jul/2025:14:50:54 +0000] "POST /admin/mocks HTTP/1.1" 500 99 "-" "curl/8.5.0"
+2025-07-11T14:51:46.205Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T14:51:46.206Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:14:51:46 +0000] "GET /api/users HTTP/1.1" 500 99 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T14:51:57.250Z [INFO]: Middleware initialized
+2025-07-11T14:52:05.629Z [INFO]: Created mock: GET /api/users
+2025-07-11T14:52:05.635Z [INFO]: ::1 - - [11/Jul/2025:14:52:05 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T14:52:15.784Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T14:52:15.785Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:14:52:15 +0000] "GET /api/users HTTP/1.1" 500 99 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T14:55:16.411Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T14:55:16.412Z [INFO]: ::1 - - [11/Jul/2025:14:55:16 +0000] "GET /api/users?status=active HTTP/1.1" 500 99 "-" "curl/8.5.0"
+2025-07-11T15:09:24.408Z [INFO]: Middleware initialized
+2025-07-11T15:09:24.413Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:09:45.811Z [INFO]: Created mock: GET /api/users
+2025-07-11T15:09:45.816Z [INFO]: ::1 - - [11/Jul/2025:15:09:45 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T15:09:54.991Z [ERROR]: Mock execution error: allStoredMocks.filter is not a function allStoredMocks.filter is not a function
+2025-07-11T15:09:54.992Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:15:09:54 +0000] "GET /api/users HTTP/1.1" 500 121 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T15:18:04.009Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:04.011Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:04.011Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:04.039Z [INFO]: Middleware initialized
+2025-07-11T15:18:04.042Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:04.048Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:04.227Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:04.229Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:04.229Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:04.260Z [INFO]: Middleware initialized
+2025-07-11T15:18:04.263Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:04.269Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:04.450Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:04.452Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:04.452Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:04.482Z [INFO]: Middleware initialized
+2025-07-11T15:18:04.484Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:04.491Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:04.678Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:04.680Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:04.680Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:04.715Z [INFO]: Middleware initialized
+2025-07-11T15:18:04.718Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:04.728Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:04.915Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:04.917Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:04.917Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:04.947Z [INFO]: Middleware initialized
+2025-07-11T15:18:04.950Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:04.957Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:05.130Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:05.131Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:05.132Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:05.162Z [INFO]: Middleware initialized
+2025-07-11T15:18:05.164Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:05.175Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:05.368Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:05.370Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:05.371Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:05.400Z [INFO]: Middleware initialized
+2025-07-11T15:18:05.403Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:05.413Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:05.617Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:05.619Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:05.619Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:05.651Z [INFO]: Middleware initialized
+2025-07-11T15:18:05.653Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:05.663Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:05.872Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:05.875Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:05.876Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:05.908Z [INFO]: Middleware initialized
+2025-07-11T15:18:05.911Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:05.919Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:06.104Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:06.106Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:06.106Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:06.136Z [INFO]: Middleware initialized
+2025-07-11T15:18:06.139Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:06.150Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:06.324Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:06.326Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:06.326Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:06.357Z [INFO]: Middleware initialized
+2025-07-11T15:18:06.359Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:06.369Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:06.550Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:06.552Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:06.552Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:06.583Z [INFO]: Middleware initialized
+2025-07-11T15:18:06.587Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:06.595Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:06.772Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:06.774Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:06.774Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:06.802Z [INFO]: Middleware initialized
+2025-07-11T15:18:06.804Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:06.810Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:06.984Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:06.985Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:06.986Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:07.015Z [INFO]: Middleware initialized
+2025-07-11T15:18:07.018Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:07.028Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:07.204Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:07.206Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:07.206Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:07.231Z [INFO]: Middleware initialized
+2025-07-11T15:18:07.234Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:07.242Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:07.410Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:07.411Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:07.412Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:07.443Z [INFO]: Middleware initialized
+2025-07-11T15:18:07.446Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:07.452Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:07.622Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:07.624Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:07.624Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:07.650Z [INFO]: Middleware initialized
+2025-07-11T15:18:07.653Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:07.661Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:07.835Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:07.837Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:07.837Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:07.870Z [INFO]: Middleware initialized
+2025-07-11T15:18:07.873Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:07.880Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:08.059Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:08.061Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:08.061Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:08.095Z [INFO]: Middleware initialized
+2025-07-11T15:18:08.099Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:08.109Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:08.322Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:08.324Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:08.324Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:08.357Z [INFO]: Middleware initialized
+2025-07-11T15:18:08.360Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:08.371Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:08.592Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:08.594Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:08.594Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:08.627Z [INFO]: Middleware initialized
+2025-07-11T15:18:08.631Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:08.641Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:08.842Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:08.844Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:08.844Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:08.881Z [INFO]: Middleware initialized
+2025-07-11T15:18:08.884Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:08.892Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:09.099Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:09.101Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:09.102Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:09.133Z [INFO]: Middleware initialized
+2025-07-11T15:18:09.136Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:09.143Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:09.325Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:09.326Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:09.327Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:09.358Z [INFO]: Middleware initialized
+2025-07-11T15:18:09.361Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:09.368Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:09.550Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:09.551Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:09.552Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:09.578Z [INFO]: Middleware initialized
+2025-07-11T15:18:09.581Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:09.587Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:09.758Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:09.760Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:09.760Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:09.791Z [INFO]: Middleware initialized
+2025-07-11T15:18:09.794Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:09.801Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:09.973Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:09.974Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:09.975Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:10.002Z [INFO]: Middleware initialized
+2025-07-11T15:18:10.005Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:10.011Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:10.213Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:10.215Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:10.216Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:10.244Z [INFO]: Middleware initialized
+2025-07-11T15:18:10.247Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:10.255Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:10.444Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:10.445Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:10.446Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:10.474Z [INFO]: Middleware initialized
+2025-07-11T15:18:10.477Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:10.488Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:10.672Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:10.674Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:10.674Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:10.706Z [INFO]: Middleware initialized
+2025-07-11T15:18:10.709Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:10.716Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:10.914Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:10.917Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:10.918Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:10.955Z [INFO]: Middleware initialized
+2025-07-11T15:18:10.959Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:10.970Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:11.158Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:11.160Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:11.160Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:11.191Z [INFO]: Middleware initialized
+2025-07-11T15:18:11.193Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:11.200Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:11.378Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:11.379Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:11.380Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:11.410Z [INFO]: Middleware initialized
+2025-07-11T15:18:11.413Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:11.420Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:11.626Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:11.628Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:11.628Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:11.659Z [INFO]: Middleware initialized
+2025-07-11T15:18:11.661Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:11.669Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:11.841Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:11.843Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:11.843Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:11.877Z [INFO]: Middleware initialized
+2025-07-11T15:18:11.879Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:11.887Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:12.083Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:12.085Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:12.086Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:12.115Z [INFO]: Middleware initialized
+2025-07-11T15:18:12.117Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:12.127Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:12.320Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:12.322Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:12.322Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:12.352Z [INFO]: Middleware initialized
+2025-07-11T15:18:12.355Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:12.362Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:12.537Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:12.539Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:12.539Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:12.566Z [INFO]: Middleware initialized
+2025-07-11T15:18:12.569Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:12.575Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:12.778Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:12.781Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:12.782Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:12.817Z [INFO]: Middleware initialized
+2025-07-11T15:18:12.820Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:12.828Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:13.018Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:13.020Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:13.020Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:13.047Z [INFO]: Middleware initialized
+2025-07-11T15:18:13.050Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:13.060Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:13.280Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:13.282Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:13.283Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:13.316Z [INFO]: Middleware initialized
+2025-07-11T15:18:13.320Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:13.328Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:13.506Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:13.508Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:13.508Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:13.539Z [INFO]: Middleware initialized
+2025-07-11T15:18:13.542Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:13.554Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:13.724Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:13.725Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:13.726Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:13.754Z [INFO]: Middleware initialized
+2025-07-11T15:18:13.757Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:13.764Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:13.945Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:13.947Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:13.947Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:13.976Z [INFO]: Middleware initialized
+2025-07-11T15:18:13.978Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:13.985Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:14.165Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:14.167Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:14.167Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:14.198Z [INFO]: Middleware initialized
+2025-07-11T15:18:14.201Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:14.210Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:14.387Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:14.389Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:14.390Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:14.419Z [INFO]: Middleware initialized
+2025-07-11T15:18:14.422Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:14.429Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:14.612Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:14.614Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:14.614Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:14.647Z [INFO]: Middleware initialized
+2025-07-11T15:18:14.650Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:14.657Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:14.839Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:14.840Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:14.841Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:14.868Z [INFO]: Middleware initialized
+2025-07-11T15:18:14.871Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:14.877Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:15.061Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:15.062Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:15.063Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:15.094Z [INFO]: Middleware initialized
+2025-07-11T15:18:15.097Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:15.105Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:15.529Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:15.531Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:15.532Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:15.568Z [INFO]: Middleware initialized
+2025-07-11T15:18:15.571Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:15.583Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:15.783Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:15.785Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:15.785Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:15.821Z [INFO]: Middleware initialized
+2025-07-11T15:18:15.824Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:15.836Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:16.104Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:16.106Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:16.106Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:16.136Z [INFO]: Middleware initialized
+2025-07-11T15:18:16.138Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:16.156Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:16.415Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:16.417Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:16.418Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:16.448Z [INFO]: Middleware initialized
+2025-07-11T15:18:16.451Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:16.459Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:16.662Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:16.664Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:16.665Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:16.696Z [INFO]: Middleware initialized
+2025-07-11T15:18:16.700Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:16.712Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:16.961Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:16.965Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:16.965Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:17.000Z [INFO]: Middleware initialized
+2025-07-11T15:18:17.003Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:17.017Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:17.203Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:17.205Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:17.205Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:17.235Z [INFO]: Middleware initialized
+2025-07-11T15:18:17.239Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:17.249Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:17.444Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:17.445Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:17.446Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:17.476Z [INFO]: Middleware initialized
+2025-07-11T15:18:17.482Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:17.490Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:17.676Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:17.678Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:17.678Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:17.704Z [INFO]: Middleware initialized
+2025-07-11T15:18:17.707Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:17.715Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:17.895Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:17.896Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:17.897Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:17.925Z [INFO]: Middleware initialized
+2025-07-11T15:18:17.928Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:17.935Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:18.106Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:18.108Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:18.108Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:18.138Z [INFO]: Middleware initialized
+2025-07-11T15:18:18.141Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:18.148Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:18.326Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:18.327Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:18.327Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:18.354Z [INFO]: Middleware initialized
+2025-07-11T15:18:18.357Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:18.364Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:18.533Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:18.535Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:18.535Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:18.562Z [INFO]: Middleware initialized
+2025-07-11T15:18:18.564Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:18.571Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:18.758Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:18.759Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:18.760Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:18.789Z [INFO]: Middleware initialized
+2025-07-11T15:18:18.793Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:18.800Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:18.968Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:18.969Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:18.970Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:19.000Z [INFO]: Middleware initialized
+2025-07-11T15:18:19.003Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:19.010Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:19.184Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:19.185Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:19.186Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:19.213Z [INFO]: Middleware initialized
+2025-07-11T15:18:19.215Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:19.222Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:19.395Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:19.396Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:19.397Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:19.429Z [INFO]: Middleware initialized
+2025-07-11T15:18:19.432Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:19.439Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:19.612Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:19.614Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:19.614Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:19.644Z [INFO]: Middleware initialized
+2025-07-11T15:18:19.646Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:19.654Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:19.825Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:19.827Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:19.827Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:19.858Z [INFO]: Middleware initialized
+2025-07-11T15:18:19.861Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:19.867Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:20.032Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:20.033Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:20.034Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:20.060Z [INFO]: Middleware initialized
+2025-07-11T15:18:20.062Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:20.068Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:20.244Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:20.246Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:20.246Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:20.275Z [INFO]: Middleware initialized
+2025-07-11T15:18:20.278Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:20.285Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:20.449Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:20.451Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:20.451Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:20.478Z [INFO]: Middleware initialized
+2025-07-11T15:18:20.480Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:20.487Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:20.660Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:20.661Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:20.662Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:20.690Z [INFO]: Middleware initialized
+2025-07-11T15:18:20.694Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:20.702Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:20.870Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:20.872Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:20.872Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:20.899Z [INFO]: Middleware initialized
+2025-07-11T15:18:20.902Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:20.909Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:21.078Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:21.080Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:21.080Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:21.108Z [INFO]: Middleware initialized
+2025-07-11T15:18:21.113Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:21.121Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:21.287Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:21.289Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:21.289Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:21.315Z [INFO]: Middleware initialized
+2025-07-11T15:18:21.318Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:21.324Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:21.509Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:21.510Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:21.511Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:21.542Z [INFO]: Middleware initialized
+2025-07-11T15:18:21.545Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:21.552Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:21.721Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:21.723Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:21.723Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:21.750Z [INFO]: Middleware initialized
+2025-07-11T15:18:21.752Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:21.760Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:21.929Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:21.931Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:21.931Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:21.963Z [INFO]: Middleware initialized
+2025-07-11T15:18:21.966Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:21.972Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:22.143Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:22.144Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:22.145Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:22.171Z [INFO]: Middleware initialized
+2025-07-11T15:18:22.174Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:22.181Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:22.357Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:22.358Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:22.359Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:22.388Z [INFO]: Middleware initialized
+2025-07-11T15:18:22.390Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:22.397Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:22.563Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:22.565Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:22.565Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:22.593Z [INFO]: Middleware initialized
+2025-07-11T15:18:22.596Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:22.602Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:22.776Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:22.778Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:22.778Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:22.807Z [INFO]: Middleware initialized
+2025-07-11T15:18:22.810Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:22.817Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:22.983Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:22.984Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:22.985Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:23.012Z [INFO]: Middleware initialized
+2025-07-11T15:18:23.015Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:23.021Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:23.196Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:23.197Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:23.198Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:23.229Z [INFO]: Middleware initialized
+2025-07-11T15:18:23.232Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:23.239Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:23.412Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:23.414Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:23.414Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:23.443Z [INFO]: Middleware initialized
+2025-07-11T15:18:23.446Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:23.452Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:23.629Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:23.631Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:23.631Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:23.660Z [INFO]: Middleware initialized
+2025-07-11T15:18:23.662Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:23.669Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:23.843Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:23.845Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:23.845Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:23.874Z [INFO]: Middleware initialized
+2025-07-11T15:18:23.877Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:23.884Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:24.060Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:24.062Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:24.062Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:24.090Z [INFO]: Middleware initialized
+2025-07-11T15:18:24.093Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:24.100Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:24.269Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:24.271Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:24.271Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:24.303Z [INFO]: Middleware initialized
+2025-07-11T15:18:24.309Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:24.315Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:24.489Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:24.491Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:24.491Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:24.517Z [INFO]: Middleware initialized
+2025-07-11T15:18:24.521Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:24.528Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:24.710Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:24.712Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:24.713Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:24.743Z [INFO]: Middleware initialized
+2025-07-11T15:18:24.746Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:24.753Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:24.924Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:24.926Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:24.926Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:24.959Z [INFO]: Middleware initialized
+2025-07-11T15:18:24.961Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:24.969Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:25.144Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:25.146Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:25.146Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:25.174Z [INFO]: Middleware initialized
+2025-07-11T15:18:25.176Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:25.182Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:30.317Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:18:30.319Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:18:30.319Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:18:30.350Z [INFO]: Middleware initialized
+2025-07-11T15:18:30.352Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:18:30.358Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:19:20.566Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:19:20.568Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:19:20.568Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:19:20.598Z [INFO]: Middleware initialized
+2025-07-11T15:19:20.601Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:19:20.610Z [ERROR]: Uncaught Exception: Can't find dataPath: /logs. Stopped at logs
+2025-07-11T15:25:39.219Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:25:39.221Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:25:39.221Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:25:39.250Z [INFO]: Middleware initialized
+2025-07-11T15:25:39.252Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:25:39.258Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:25:49.236Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:25:49.237Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:25:49.238Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:25:49.268Z [INFO]: Middleware initialized
+2025-07-11T15:25:49.270Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:25:49.277Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:27:18.671Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:27:18.673Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:27:18.673Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:27:18.703Z [INFO]: Middleware initialized
+2025-07-11T15:27:18.705Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:27:18.715Z [ERROR]: Uncaught Exception: Can't find dataPath: /logs. Stopped at logs
+2025-07-11T15:29:06.993Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:29:06.995Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:29:06.995Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:29:07.023Z [INFO]: Middleware initialized
+2025-07-11T15:29:07.025Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:29:21.455Z [INFO]: Created mock: GET /api/users
+2025-07-11T15:29:21.459Z [INFO]: ::1 - - [11/Jul/2025:15:29:21 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T15:29:32.492Z [ERROR]: Mock execution error: allStoredMocks.filter is not a function allStoredMocks.filter is not a function
+2025-07-11T15:29:32.493Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:15:29:32 +0000] "GET /api/users HTTP/1.1" 500 121 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T15:35:24.977Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:35:24.979Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:35:24.979Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:35:25.009Z [INFO]: Middleware initialized
+2025-07-11T15:35:25.012Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:35:37.690Z [WARN]: Mocks data is not an array. Reinitializing...
+2025-07-11T15:35:37.690Z [WARN]: No mock found for GET /api/users
+2025-07-11T15:35:37.697Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:15:35:37 +0000] "GET /api/users HTTP/1.1" 404 92 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T15:35:54.201Z [INFO]: Created mock: GET /api/users
+2025-07-11T15:35:54.202Z [INFO]: ::1 - - [11/Jul/2025:15:35:54 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T15:36:01.201Z [WARN]: Mocks data is not an array. Reinitializing...
+2025-07-11T15:36:01.202Z [WARN]: No mock found for GET /api/users
+2025-07-11T15:36:01.202Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:15:36:01 +0000] "GET /api/users HTTP/1.1" 404 92 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T15:39:24.344Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:39:24.346Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:39:24.346Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:39:24.375Z [INFO]: Middleware initialized
+2025-07-11T15:39:24.378Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:39:44.876Z [INFO]: Created mock: GET /api/users
+2025-07-11T15:39:44.880Z [INFO]: ::1 - - [11/Jul/2025:15:39:44 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T15:39:54.353Z [WARN]: Mocks data is not an array. Attempting to convert object to array...
+2025-07-11T15:39:54.353Z [WARN]: No mock found for GET /api/users
+2025-07-11T15:39:54.354Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:15:39:54 +0000] "GET /api/users HTTP/1.1" 404 92 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T15:42:00.042Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:42:00.044Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:42:00.044Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:42:00.072Z [INFO]: Middleware initialized
+2025-07-11T15:42:00.075Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:42:13.804Z [INFO]: Created mock: GET /api/users
+2025-07-11T15:42:13.810Z [INFO]: ::1 - - [11/Jul/2025:15:42:13 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T15:42:22.205Z [ERROR]: Validation Error: "path" is required; "response" is required
+2025-07-11T15:42:22.205Z [ERROR]: Controller error: "path" is required; "response" is required
+2025-07-11T15:42:22.207Z [INFO]: ::1 - - [11/Jul/2025:15:42:22 +0000] "POST /admin/mocks HTTP/1.1" 500 99 "-" "curl/8.5.0"
+2025-07-11T15:42:38.563Z [WARN]: Mocks data is not an array. Convirtiendo objeto indexado a array.
+2025-07-11T15:42:38.563Z [WARN]: No mock found for GET /api/users
+2025-07-11T15:42:38.564Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:15:42:38 +0000] "GET /api/users HTTP/1.1" 404 92 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T15:44:30.144Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:44:30.146Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:44:30.146Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:44:30.177Z [INFO]: Middleware initialized
+2025-07-11T15:44:30.180Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:44:40.032Z [INFO]: Created mock: GET /api/users
+2025-07-11T15:44:40.036Z [INFO]: ::1 - - [11/Jul/2025:15:44:40 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T15:44:47.520Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:15:44:47 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T15:45:23.389Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:45:23.391Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:45:23.391Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:45:23.419Z [INFO]: Middleware initialized
+2025-07-11T15:45:23.422Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:45:33.164Z [INFO]: Created mock: GET /api/users
+2025-07-11T15:45:33.170Z [INFO]: ::1 - - [11/Jul/2025:15:45:33 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T15:45:51.982Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:15:45:51 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T15:59:27.911Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T15:59:27.914Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T15:59:27.915Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T15:59:28.008Z [INFO]: Middleware initialized
+2025-07-11T15:59:28.012Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T15:59:33.281Z [INFO]: Created mock: GET /api/users
+2025-07-11T15:59:33.289Z [INFO]: ::1 - - [11/Jul/2025:15:59:33 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T15:59:49.094Z [INFO]: ::1 - - [11/Jul/2025:15:59:49 +0000] "GET /admin/mocks HTTP/1.1" 200 2 "-" "curl/8.5.0"
+2025-07-11T16:00:14.907Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T16:00:14.909Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T16:00:14.909Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T16:00:14.940Z [INFO]: Middleware initialized
+2025-07-11T16:00:14.943Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T16:00:32.269Z [INFO]: Created mock: GET /api/users
+2025-07-11T16:00:32.274Z [INFO]: ::1 - - [11/Jul/2025:16:00:32 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T16:00:41.344Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:16:00:41 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T16:01:54.009Z [ERROR]: Controller error: mocks.findIndex is not a function
+2025-07-11T16:01:54.011Z [INFO]: ::1 - - [11/Jul/2025:16:01:54 +0000] "PUT /admin/mocks/7cb6ad9c-4a13-4892-aa33-997782ce358b HTTP/1.1" 500 99 "-" "curl/8.5.0"
+2025-07-11T16:10:23.517Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T16:10:23.520Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T16:10:23.520Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T16:10:23.555Z [INFO]: Middleware initialized
+2025-07-11T16:10:23.558Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T16:10:27.105Z [INFO]: Created mock: GET /api/users
+2025-07-11T16:10:27.109Z [INFO]: ::1 - - [11/Jul/2025:16:10:27 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T16:10:37.469Z [INFO]: Created mock: GET /api/products
+2025-07-11T16:10:37.470Z [INFO]: ::1 - - [11/Jul/2025:16:10:37 +0000] "POST /admin/mocks HTTP/1.1" 201 358 "-" "curl/8.5.0"
+2025-07-11T16:10:48.186Z [INFO]: Created mock: POST /api/orders
+2025-07-11T16:10:48.187Z [INFO]: ::1 - - [11/Jul/2025:16:10:48 +0000] "POST /admin/mocks HTTP/1.1" 201 339 "-" "curl/8.5.0"
+2025-07-11T16:11:10.878Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:16:11:10 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T16:13:02.526Z [INFO]: Updated mock: GET /api/users
+2025-07-11T16:13:02.527Z [INFO]: ::1 - - [11/Jul/2025:16:13:02 +0000] "PUT /admin/mocks/4cb835ad-61ab-4e93-8dbc-17e837c8286a HTTP/1.1" 200 349 "-" "curl/8.5.0"
+2025-07-11T16:13:15.361Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:16:13:15 +0000] "GET /api/users HTTP/1.1" 200 57 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T16:14:25.074Z [ERROR]: Delete failed: (intermediate value) is not iterable
+2025-07-11T16:14:25.075Z [INFO]: ::1 - - [11/Jul/2025:16:14:25 +0000] "DELETE /admin/mocks/4cb835ad-61ab-4e93-8dbc-17e837c8286a HTTP/1.1" 500 92 "-" "curl/8.5.0"
+2025-07-11T16:21:56.708Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T16:21:56.710Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T16:21:56.710Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T16:21:56.743Z [INFO]: Middleware initialized
+2025-07-11T16:21:56.746Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T16:22:22.330Z [INFO]: Created mock: GET /api/users
+2025-07-11T16:22:22.335Z [INFO]: ::1 - - [11/Jul/2025:16:22:22 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T16:22:43.083Z [INFO]: Created mock: GET /api/products
+2025-07-11T16:22:43.083Z [INFO]: ::1 - - [11/Jul/2025:16:22:43 +0000] "POST /admin/mocks HTTP/1.1" 201 358 "-" "curl/8.5.0"
+2025-07-11T16:22:51.224Z [INFO]: Created mock: POST /api/orders
+2025-07-11T16:22:51.225Z [INFO]: ::1 - - [11/Jul/2025:16:22:51 +0000] "POST /admin/mocks HTTP/1.1" 201 339 "-" "curl/8.5.0"
+2025-07-11T16:23:05.070Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:16:23:05 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T16:23:40.416Z [INFO]: ::1 - - [11/Jul/2025:16:23:40 +0000] "PUT /admin/mocks/4cb835ad-61ab-4e93-8dbc-17e837c8286a HTTP/1.1" 404 92 "-" "curl/8.5.0"
+2025-07-11T16:24:33.591Z [INFO]: Updated mock: GET /api/users
+2025-07-11T16:24:33.594Z [INFO]: ::1 - - [11/Jul/2025:16:24:33 +0000] "PUT /admin/mocks/b978d5e1-b3b8-4c54-9c18-a5c20cdb9f89 HTTP/1.1" 200 349 "-" "curl/8.5.0"
+2025-07-11T16:25:39.988Z [ERROR]: Delete failed: object is not iterable (cannot read property Symbol(Symbol.iterator))
+2025-07-11T16:25:39.990Z [INFO]: ::1 - - [11/Jul/2025:16:25:39 +0000] "DELETE /admin/mocks/b978d5e1-b3b8-4c54-9c18-a5c20cdb9f89 HTTP/1.1" 500 92 "-" "curl/8.5.0"
+2025-07-11T16:27:21.131Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T16:27:21.134Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T16:27:21.134Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T16:27:21.173Z [INFO]: Middleware initialized
+2025-07-11T16:27:21.176Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T16:27:45.207Z [INFO]: Created mock: GET /api/users
+2025-07-11T16:27:45.212Z [INFO]: ::1 - - [11/Jul/2025:16:27:45 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T16:27:53.434Z [INFO]: Created mock: GET /api/products
+2025-07-11T16:27:53.435Z [INFO]: ::1 - - [11/Jul/2025:16:27:53 +0000] "POST /admin/mocks HTTP/1.1" 201 358 "-" "curl/8.5.0"
+2025-07-11T16:28:01.012Z [INFO]: Created mock: POST /api/orders
+2025-07-11T16:28:01.015Z [INFO]: ::1 - - [11/Jul/2025:16:28:01 +0000] "POST /admin/mocks HTTP/1.1" 201 339 "-" "curl/8.5.0"
+2025-07-11T16:28:38.216Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:16:28:38 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T16:29:03.564Z [INFO]: Updated mock: GET /api/products
+2025-07-11T16:29:03.567Z [INFO]: ::1 - - [11/Jul/2025:16:29:03 +0000] "PUT /admin/mocks/b0a99484-ee78-4ae7-a634-e4c3022db033 HTTP/1.1" 200 352 "-" "curl/8.5.0"
+2025-07-11T16:29:25.522Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:16:29:25 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T16:30:00.886Z [INFO]: Deleted mock: GET /api/users
+2025-07-11T16:30:00.887Z [INFO]: ::1 - - [11/Jul/2025:16:30:00 +0000] "DELETE /admin/mocks/4300ba08-ea0c-4162-90cd-8e3ce8e08173 HTTP/1.1" 204 - "-" "curl/8.5.0"
+2025-07-11T16:30:14.346Z [INFO]: Deleted mock: POST /api/orders
+2025-07-11T16:30:14.346Z [INFO]: ::1 - - [11/Jul/2025:16:30:14 +0000] "DELETE /admin/mocks/71947995-3d24-4b16-8a4b-db0cfa22c311 HTTP/1.1" 204 - "-" "curl/8.5.0"
+2025-07-11T16:30:26.966Z [WARN]: No mock found for GET /api/users
+2025-07-11T16:30:26.967Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:16:30:26 +0000] "GET /api/users HTTP/1.1" 404 92 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T16:30:45.495Z [WARN]: No mock found for GET /api/users
+2025-07-11T16:30:45.496Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:16:30:45 +0000] "GET /api/users HTTP/1.1" 404 92 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T19:26:20.777Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T19:26:20.780Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T19:26:20.780Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T19:26:20.828Z [INFO]: Middleware initialized
+2025-07-11T19:26:20.834Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T19:41:30.939Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T19:41:30.942Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T19:41:30.942Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T19:41:30.989Z [INFO]: Middleware initialized
+2025-07-11T19:41:30.994Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T19:42:11.794Z [INFO]: Created mock: GET /api/users
+2025-07-11T19:42:11.811Z [INFO]: ::1 - - [11/Jul/2025:19:42:11 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T19:42:24.350Z [INFO]: Created mock: GET /api/products
+2025-07-11T19:42:24.353Z [INFO]: ::1 - - [11/Jul/2025:19:42:24 +0000] "POST /admin/mocks HTTP/1.1" 201 358 "-" "curl/8.5.0"
+2025-07-11T19:42:33.246Z [INFO]: Created mock: POST /api/orders
+2025-07-11T19:42:33.250Z [INFO]: ::1 - - [11/Jul/2025:19:42:33 +0000] "POST /admin/mocks HTTP/1.1" 201 339 "-" "curl/8.5.0"
+2025-07-11T19:42:42.581Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:19:42:42 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T19:43:06.376Z [INFO]: Updated mock: POST /api/orders
+2025-07-11T19:43:06.379Z [INFO]: ::1 - - [11/Jul/2025:19:43:06 +0000] "PUT /admin/mocks/4e9dc31a-1d46-4a29-932b-fed3ea1b5514 HTTP/1.1" 200 351 "-" "curl/8.5.0"
+2025-07-11T19:43:29.246Z [INFO]: Deleted mock: GET /api/products
+2025-07-11T19:43:29.249Z [INFO]: ::1 - - [11/Jul/2025:19:43:29 +0000] "DELETE /admin/mocks/e6d8571b-c94e-45bb-86b1-aa78d575b1f4 HTTP/1.1" 204 - "-" "curl/8.5.0"
+2025-07-11T19:43:46.558Z [INFO]: Detección de cierre (SIGINT). Creando backup...
+2025-07-11T19:43:46.615Z [INFO]: Backup guardado en: /home/andres/mock-api-service/TigoChallenge/backups/backup-logs-2025-07-11T19-43-46-613Z.json
+2025-07-11T19:50:21.209Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T19:50:21.212Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T19:50:21.212Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T19:50:21.255Z [INFO]: Middleware initialized
+2025-07-11T19:50:21.259Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T19:50:29.451Z [INFO]: Created mock: GET /api/users
+2025-07-11T19:50:29.469Z [INFO]: ::1 - - [11/Jul/2025:19:50:29 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T19:51:05.923Z [INFO]: Created mock: GET /api/products
+2025-07-11T19:51:05.927Z [INFO]: ::1 - - [11/Jul/2025:19:51:05 +0000] "POST /admin/mocks HTTP/1.1" 201 358 "-" "curl/8.5.0"
+2025-07-11T19:51:13.504Z [INFO]: Created mock: POST /api/orders
+2025-07-11T19:51:13.507Z [INFO]: ::1 - - [11/Jul/2025:19:51:13 +0000] "POST /admin/mocks HTTP/1.1" 201 339 "-" "curl/8.5.0"
+2025-07-11T19:51:22.116Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:19:51:22 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T19:51:45.487Z [INFO]: Updated mock: POST /api/orders
+2025-07-11T19:51:45.490Z [INFO]: ::1 - - [11/Jul/2025:19:51:45 +0000] "PUT /admin/mocks/82dc5f41-686e-4b62-a4c7-e3f883610853 HTTP/1.1" 200 351 "-" "curl/8.5.0"
+2025-07-11T19:52:35.878Z [INFO]: Deleted mock: GET /api/products
+2025-07-11T19:52:35.880Z [INFO]: ::1 - - [11/Jul/2025:19:52:35 +0000] "DELETE /admin/mocks/919dfbfd-1886-4483-977f-57fe827890ec HTTP/1.1" 204 - "-" "curl/8.5.0"
+2025-07-11T19:52:46.406Z [INFO]: Deleted mock: POST /api/orders
+2025-07-11T19:52:46.408Z [INFO]: ::1 - - [11/Jul/2025:19:52:46 +0000] "DELETE /admin/mocks/82dc5f41-686e-4b62-a4c7-e3f883610853 HTTP/1.1" 204 - "-" "curl/8.5.0"
+2025-07-11T19:53:08.986Z [INFO]: Detección de cierre (SIGINT). Creando backup...
+2025-07-11T19:53:08.990Z [INFO]: Backup guardado en: /home/andres/mock-api-service/TigoChallenge/backups/backup-logs-2025-07-11T19-53-08-988Z.json
+2025-07-11T19:53:45.163Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T19:53:45.166Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T19:53:45.166Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T19:54:58.950Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T19:54:58.953Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T19:54:58.954Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T19:54:58.999Z [INFO]: Middleware initialized
+2025-07-11T19:54:59.003Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T19:55:08.364Z [INFO]: Created mock: GET /api/products
+2025-07-11T19:55:08.380Z [INFO]: ::1 - - [11/Jul/2025:19:55:08 +0000] "POST /admin/mocks HTTP/1.1" 201 358 "-" "curl/8.5.0"
+2025-07-11T19:55:12.532Z [INFO]: Detección de cierre (SIGINT). Creando backup...
+2025-07-11T19:55:12.537Z [INFO]: Backup guardado en: /home/andres/mock-api-service/TigoChallenge/backups/backup-logs-2025-07-11T19-55-12-535Z.json
+2025-07-11T19:56:51.605Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T19:56:51.607Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T19:56:51.608Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T19:56:51.654Z [INFO]: Middleware initialized
+2025-07-11T19:56:51.658Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T19:56:58.027Z [INFO]: Created mock: GET /api/products
+2025-07-11T19:56:58.043Z [INFO]: ::1 - - [11/Jul/2025:19:56:58 +0000] "POST /admin/mocks HTTP/1.1" 201 358 "-" "curl/8.5.0"
+2025-07-11T19:58:01.548Z [INFO]: Detección de cierre (SIGINT). Creando backup...
+2025-07-11T19:58:01.553Z [INFO]: Backup guardado en: /home/andres/mock-api-service/TigoChallenge/backups/backup-logs-2025-07-11T19-58-01-551Z.json
+2025-07-11T19:58:45.635Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T19:58:45.638Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T19:58:45.638Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T19:58:45.681Z [INFO]: Middleware initialized
+2025-07-11T19:58:45.685Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T19:58:59.772Z [INFO]: Created mock: GET /api/products
+2025-07-11T19:58:59.789Z [INFO]: ::1 - - [11/Jul/2025:19:58:59 +0000] "POST /admin/mocks HTTP/1.1" 201 358 "-" "curl/8.5.0"
+2025-07-11T19:59:18.789Z [INFO]: Created mock: GET /api/users
+2025-07-11T19:59:18.791Z [INFO]: ::1 - - [11/Jul/2025:19:59:18 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T19:59:33.872Z [WARN]: 🛠️ Logs no son un array. Convirtiendo a array...
+2025-07-11T19:59:33.875Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:19:59:33 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T19:59:57.365Z [WARN]: 🛠️ Logs no son un array. Convirtiendo a array...
+2025-07-11T19:59:57.366Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:19:59:57 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T20:00:46.077Z [WARN]: 🛠️ Logs no son un array. Convirtiendo a array...
+2025-07-11T20:00:46.078Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:20:00:46 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T20:01:08.366Z [INFO]: Detección de cierre (SIGINT). Creando backup...
+2025-07-11T20:01:08.371Z [INFO]: Backup guardado en: /home/andres/mock-api-service/TigoChallenge/backups/backup-logs-2025-07-11T20-01-08-369Z.json
+2025-07-11T20:01:58.303Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T20:01:58.306Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T20:01:58.307Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T20:01:58.357Z [INFO]: Middleware initialized
+2025-07-11T20:01:58.361Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T20:02:12.496Z [INFO]: Created mock: GET /api/users
+2025-07-11T20:02:12.506Z [INFO]: ::1 - - [11/Jul/2025:20:02:12 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T20:02:12.517Z [INFO]: Created mock: GET /api/products
+2025-07-11T20:02:12.519Z [INFO]: ::1 - - [11/Jul/2025:20:02:12 +0000] "POST /admin/mocks HTTP/1.1" 201 358 "-" "curl/8.5.0"
+2025-07-11T20:02:12.534Z [INFO]: Created mock: POST /api/orders
+2025-07-11T20:02:12.535Z [INFO]: ::1 - - [11/Jul/2025:20:02:12 +0000] "POST /admin/mocks HTTP/1.1" 201 339 "-" "curl/8.5.0"
+2025-07-11T20:02:28.878Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:20:02:28 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T20:02:45.806Z [INFO]: Detección de cierre (SIGINT). Creando backup...
+2025-07-11T20:02:45.811Z [INFO]: Backup guardado en: /home/andres/mock-api-service/TigoChallenge/backups/backup-logs-2025-07-11T20-02-45-809Z.json

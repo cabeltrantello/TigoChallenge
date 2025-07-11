@@ -6,3 +6,141 @@
 2025-07-10T20:11:53.396Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
 2025-07-11T06:21:50.751Z [ERROR]: Controller error: validate is not a function
 2025-07-11T06:22:09.815Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T06:28:53.368Z [ERROR]: Controller error: validate is not a function
+2025-07-11T06:32:10.805Z [ERROR]: Controller error: validate is not a function
+2025-07-11T06:32:24.629Z [ERROR]: Controller error: validate is not a function
+2025-07-11T06:34:04.170Z [ERROR]: Controller error: validate is not a function
+2025-07-11T06:34:19.896Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T06:34:43.974Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T06:39:16.916Z [ERROR]: Controller error: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'id' -> object with constructor 'Object'
+    |     property 'state' -> object with constructor 'module.exports.internals.State'
+    |     property 'ancestors' -> object with constructor 'Array'
+    --- index 0 closes the circle
+2025-07-11T06:39:45.975Z [ERROR]: Controller error: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'id' -> object with constructor 'Object'
+    |     property 'state' -> object with constructor 'module.exports.internals.State'
+    |     property 'ancestors' -> object with constructor 'Array'
+    --- index 0 closes the circle
+2025-07-11T06:46:21.711Z [ERROR]: Controller error: Converting circular structure to JSON
+    --> starting at object with constructor 'Object'
+    |     property 'state' -> object with constructor 'module.exports.internals.State'
+    |     property 'ancestors' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 'Object'
+    --- property 'id' closes the circle
+2025-07-11T06:53:15.481Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T06:53:27.522Z [ERROR]: Uncaught Exception: Can't find dataPath: /logs. Stopped at logs
+2025-07-11T14:49:04.505Z [ERROR]: Validation Error: "path" is required; "method" is required; "response" is required
+2025-07-11T14:49:04.505Z [ERROR]: Controller error: "path" is required; "method" is required; "response" is required
+2025-07-11T14:50:54.839Z [ERROR]: Validation Error: "path" is required; "response" is required
+2025-07-11T14:50:54.839Z [ERROR]: Controller error: "path" is required; "response" is required
+2025-07-11T14:51:46.205Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T14:52:15.784Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T14:55:16.411Z [ERROR]: Mock execution error: db.getData(...).filter is not a function
+2025-07-11T15:09:54.991Z [ERROR]: Mock execution error: allStoredMocks.filter is not a function allStoredMocks.filter is not a function
+2025-07-11T15:18:04.048Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:04.269Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:04.491Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:04.728Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:04.957Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:05.175Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:05.413Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:05.663Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:05.919Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:06.150Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:06.369Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:06.595Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:06.810Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:07.028Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:07.242Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:07.452Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:07.661Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:07.880Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:08.109Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:08.371Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:08.641Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:08.892Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:09.143Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:09.368Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:09.587Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:09.801Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:10.011Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:10.255Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:10.488Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:10.716Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:10.970Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:11.200Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:11.420Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:11.669Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:11.887Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:12.127Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:12.362Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:12.575Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:12.828Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:13.060Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:13.328Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:13.554Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:13.764Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:13.985Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:14.210Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:14.429Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:14.657Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:14.877Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:15.105Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:15.583Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:15.836Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:16.156Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:16.459Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:16.712Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:17.017Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:17.249Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:17.490Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:17.715Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:17.935Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:18.148Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:18.364Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:18.571Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:18.800Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:19.010Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:19.222Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:19.439Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:19.654Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:19.867Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:20.068Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:20.285Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:20.487Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:20.702Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:20.909Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:21.121Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:21.324Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:21.552Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:21.760Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:21.972Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:22.181Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:22.397Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:22.602Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:22.817Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:23.021Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:23.239Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:23.452Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:23.669Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:23.884Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:24.100Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:24.315Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:24.528Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:24.753Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:24.969Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:25.182Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:18:30.358Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:19:20.610Z [ERROR]: Uncaught Exception: Can't find dataPath: /logs. Stopped at logs
+2025-07-11T15:25:39.258Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:25:49.277Z [ERROR]: Uncaught Exception: Can't find dataPath: /mocks. Stopped at mocks
+2025-07-11T15:27:18.715Z [ERROR]: Uncaught Exception: Can't find dataPath: /logs. Stopped at logs
+2025-07-11T15:29:32.492Z [ERROR]: Mock execution error: allStoredMocks.filter is not a function allStoredMocks.filter is not a function
+2025-07-11T15:42:22.205Z [ERROR]: Validation Error: "path" is required; "response" is required
+2025-07-11T15:42:22.205Z [ERROR]: Controller error: "path" is required; "response" is required
+2025-07-11T16:01:54.009Z [ERROR]: Controller error: mocks.findIndex is not a function
+2025-07-11T16:14:25.074Z [ERROR]: Delete failed: (intermediate value) is not iterable
+2025-07-11T16:25:39.988Z [ERROR]: Delete failed: object is not iterable (cannot read property Symbol(Symbol.iterator))

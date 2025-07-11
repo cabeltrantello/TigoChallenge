@@ -6,7 +6,6 @@ const matchMethod = (mockMethod, requestMethod) =>
 
 const matchQueryParams = (mockParams, requestQuery) => {
   if (!mockParams) return true;
-
   return Object.entries(mockParams).every(([key, value]) =>
     requestQuery[key] && requestQuery[key] === value
   );
@@ -21,7 +20,7 @@ const matchPath = (mockPath, requestPath) => {
       return false;
     }
 
-    return mockPathSegments.every((segment, i) => 
+    return mockPathSegments.every((segment, i) =>
       segment.startsWith(':') || segment === requestPathSegments[i]
     );
   } catch (error) {
@@ -32,6 +31,7 @@ const matchPath = (mockPath, requestPath) => {
 
 const matchRequest = (mocks, req) =>
   mocks.find(mock =>
+    mock.active &&
     matchPath(mock.path, req.path) &&
     matchMethod(mock.method, req.method) &&
     matchQueryParams(mock.queryParams, req.query) &&

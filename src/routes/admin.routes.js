@@ -12,10 +12,10 @@ router.delete('/mocks/:id', adminController.deleteMock);
 
 router.get('/logs', (req, res) => {
   try {
-    const logs = db.getData('/logs');
+    const logs = db.getData('/logs') || [];
     res.json(logs);
   } catch (error) {
-    logger.error('Failed to retrieve logs:', error.message);
+    logger.error('Failed to retrieve logs:', error);
     res.status(500).json({ error: 'Failed to retrieve logs' });
   }
 });
