@@ -1,3 +1,5 @@
+const logger = require('./logger.util');
+
 class AppError extends Error {
   constructor(message, statusCode) {
     super(message);
@@ -15,14 +17,14 @@ const formatError = (message, details = null) => ({
   }
 });
 
-const errorHandler = (err, req, res, next) => {
+const errorHandler = (err, req, res) => {
   const statusCode = err.statusCode || 500;
   const message = statusCode >= 500 ? 'Internal server error' : err.message;
-  
+
   if (statusCode >= 500) {
-    console.error(err);
+    logger.error(err);
   }
-  
+
   res.status(statusCode).json(formatError(message));
 };
 

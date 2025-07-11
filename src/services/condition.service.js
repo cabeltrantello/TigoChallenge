@@ -1,12 +1,13 @@
-// Evaluates mock conditions against the incoming request
-const matchConditions = (conditions = [], req) => {
-  // No conditions, always match
+const logger = require('../utils/logger.util');
+
+const matchConditions = (req, conditions = []) => { 
   if (!conditions.length) return true;
 
   try {
     return conditions.every(condition => {
       const { field, operator, value } = condition;
-      const fieldValue = req[condition.source]?.[field];
+      const sourceObject = req[condition.source];
+      const fieldValue = sourceObject && sourceObject[field];
 
       switch (operator) {
         case 'equals':
@@ -22,7 +23,7 @@ const matchConditions = (conditions = [], req) => {
       }
     });
   } catch (err) {
-    console.error(`Condition matching failed: ${err.message}`);
+    logger.error(`Condition matching failed: ${err.message}`);
     return false;
   }
 };

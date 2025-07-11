@@ -115,8 +115,14 @@
     ],
     "env": {
       "node": true,
-      "jest": true
+      "jest": true,
+      "es2022": true
     },
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    
     "rules": {
       "import/no-extraneous-dependencies": [
         "error",
