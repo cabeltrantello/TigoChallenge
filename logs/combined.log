@@ -1507,3 +1507,26 @@
 2025-07-11T23:44:48.497Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:23:44:48 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
 2025-07-11T23:44:56.665Z [INFO]: Detección de cierre (SIGINT). Creando backup...
 2025-07-11T23:44:56.669Z [INFO]: Backup guardado en: /home/andres/mock-api-service/TigoChallenge/backups/backup-logs-2025-07-11T23-44-56-667Z.json
+2025-07-12T00:26:32.534Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-12T00:26:32.542Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-12T00:26:32.544Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-12T00:26:32.716Z [INFO]: Middleware initialized
+2025-07-12T00:26:32.728Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-12T00:27:02.098Z [INFO]: Created mock: GET /api/users
+2025-07-12T00:27:02.115Z [INFO]: ::1 - - [12/Jul/2025:00:27:02 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-12T00:27:02.154Z [INFO]: Created mock: GET /api/products
+2025-07-12T00:27:02.160Z [INFO]: ::1 - - [12/Jul/2025:00:27:02 +0000] "POST /admin/mocks HTTP/1.1" 201 358 "-" "curl/8.5.0"
+2025-07-12T00:27:02.197Z [INFO]: Created mock: POST /api/orders
+2025-07-12T00:27:02.201Z [INFO]: ::1 - - [12/Jul/2025:00:27:02 +0000] "POST /admin/mocks HTTP/1.1" 201 339 "-" "curl/8.5.0"
+2025-07-12T00:27:26.238Z [INFO]: ::ffff:127.0.0.1 - - [12/Jul/2025:00:27:26 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-12T00:28:09.884Z [INFO]: Updated mock: GET /api/products
+2025-07-12T00:28:09.889Z [INFO]: ::1 - - [12/Jul/2025:00:28:09 +0000] "PUT /admin/mocks/1b3a91bf-ab99-4dbf-8d5e-0c52947cd555 HTTP/1.1" 200 352 "-" "curl/8.5.0"
+2025-07-12T00:28:22.588Z [INFO]: ::ffff:127.0.0.1 - - [12/Jul/2025:00:28:22 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-12T00:28:56.789Z [INFO]: Deleted mock: POST /api/orders
+2025-07-12T00:28:56.792Z [INFO]: ::1 - - [12/Jul/2025:00:28:56 +0000] "DELETE /admin/mocks/cf98a404-3e7b-49f6-8dca-d8f7fd651bb2 HTTP/1.1" 204 - "-" "curl/8.5.0"
+2025-07-12T00:29:10.838Z [INFO]: ::ffff:127.0.0.1 - - [12/Jul/2025:00:29:10 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"

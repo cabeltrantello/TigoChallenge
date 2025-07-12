@@ -1,7 +1,7 @@
 {
     "mocks": [
         {
-            "id": "5126cd9f-6bc6-4b31-a1e2-5ffae2f5b316",
+            "id": "2b2cf6b1-2158-4288-83de-d0b75dc4aaac",
             "active": true,
             "path": "/api/users",
             "method": "GET",
@@ -18,19 +18,49 @@
             "queryParams": {},
             "headers": {},
             "conditions": [],
-            "createdAt": "2025-07-11T23:42:15.238Z",
-            "updatedAt": "2025-07-11T23:42:15.238Z"
+            "createdAt": "2025-07-12T00:27:02.094Z",
+            "updatedAt": "2025-07-12T00:27:02.094Z"
+        },
+        {
+            "id": "1b3a91bf-ab99-4dbf-8d5e-0c52947cd555",
+            "active": true,
+            "path": "/api/products",
+            "method": "GET",
+            "response": {
+                "body": {
+                    "users": [
+                        {
+                            "id": 1,
+                            "name": "Alice"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Bob"
+                        }
+                    ]
+                },
+                "headers": {
+                    "X-Test": "true"
+                },
+                "status": 200,
+                "latency": 0
+            },
+            "queryParams": {},
+            "headers": {},
+            "conditions": [],
+            "createdAt": "2025-07-12T00:27:02.153Z",
+            "updatedAt": "2025-07-12T00:28:09.882Z"
         }
     ],
     "logs": [
         {
-            "id": "87c30bd5-eabe-41fe-98c9-694ea4b9773d",
-            "mockId": "5126cd9f-6bc6-4b31-a1e2-5ffae2f5b316",
+            "id": "1c94b21e-390a-4f8f-ae57-10b86ec28f14",
+            "mockId": "2b2cf6b1-2158-4288-83de-d0b75dc4aaac",
             "method": "GET",
             "path": "/api/users",
             "status": 200,
-            "latency": 9,
-            "timestamp": "2025-07-11T23:42:30.879Z",
+            "latency": 12,
+            "timestamp": "2025-07-12T00:27:26.232Z",
             "request": {
                 "headers": {
                     "te": "deflate,gzip;q=0.3",
@@ -43,13 +73,32 @@
             }
         },
         {
-            "id": "bb7eeff5-a2b0-4de4-8090-adec70e5b157",
-            "mockId": "5126cd9f-6bc6-4b31-a1e2-5ffae2f5b316",
+            "id": "7da76417-56fc-4848-8a2c-9dd739e96873",
+            "mockId": "2b2cf6b1-2158-4288-83de-d0b75dc4aaac",
             "method": "GET",
             "path": "/api/users",
             "status": 200,
             "latency": 1,
-            "timestamp": "2025-07-11T23:44:48.496Z",
+            "timestamp": "2025-07-12T00:28:22.587Z",
+            "request": {
+                "headers": {
+                    "te": "deflate,gzip;q=0.3",
+                    "connection": "TE, close",
+                    "host": "localhost:3000",
+                    "user-agent": "lwp-request/6.76 libwww-perl/6.76"
+                },
+                "query": {},
+                "body": {}
+            }
+        },
+        {
+            "id": "050a6c92-9efe-4048-b6d5-14cd9011168b",
+            "mockId": "2b2cf6b1-2158-4288-83de-d0b75dc4aaac",
+            "method": "GET",
+            "path": "/api/users",
+            "status": 200,
+            "latency": 0,
+            "timestamp": "2025-07-12T00:29:10.836Z",
             "request": {
                 "headers": {
                     "te": "deflate,gzip;q=0.3",
