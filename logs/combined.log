@@ -1481,3 +1481,29 @@
 2025-07-11T20:02:28.878Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:20:02:28 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
 2025-07-11T20:02:45.806Z [INFO]: Detección de cierre (SIGINT). Creando backup...
 2025-07-11T20:02:45.811Z [INFO]: Backup guardado en: /home/andres/mock-api-service/TigoChallenge/backups/backup-logs-2025-07-11T20-02-45-809Z.json
+2025-07-11T23:41:46.149Z [WARN]: Mocks data at /mocks is not an array. Re-initializing.
+2025-07-11T23:41:46.158Z [WARN]: Logs data at /logs is not an array. Re-initializing.
+2025-07-11T23:41:46.160Z [INFO]: 📊 Database file: ./mocks.db.json
+2025-07-11T23:41:46.364Z [INFO]: Middleware initialized
+2025-07-11T23:41:46.382Z [INFO]: 
+  🚀 Mock API Server running in development mode
+  📡 Listening on port 3000
+  📊 Database: ./mocks.db.json
+  ⏱️  Rate limit: 1000 req/15min
+  
+2025-07-11T23:42:15.242Z [INFO]: Created mock: GET /api/users
+2025-07-11T23:42:15.263Z [INFO]: ::1 - - [11/Jul/2025:23:42:15 +0000] "POST /admin/mocks HTTP/1.1" 201 304 "-" "curl/8.5.0"
+2025-07-11T23:42:15.299Z [INFO]: Created mock: GET /api/products
+2025-07-11T23:42:15.303Z [INFO]: ::1 - - [11/Jul/2025:23:42:15 +0000] "POST /admin/mocks HTTP/1.1" 201 358 "-" "curl/8.5.0"
+2025-07-11T23:42:15.346Z [INFO]: Created mock: POST /api/orders
+2025-07-11T23:42:15.350Z [INFO]: ::1 - - [11/Jul/2025:23:42:15 +0000] "POST /admin/mocks HTTP/1.1" 201 339 "-" "curl/8.5.0"
+2025-07-11T23:42:30.884Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:23:42:30 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T23:42:56.050Z [INFO]: Updated mock: POST /api/orders
+2025-07-11T23:42:56.054Z [INFO]: ::1 - - [11/Jul/2025:23:42:56 +0000] "PUT /admin/mocks/47485398-0d4a-43a0-ad3e-98ef336da458 HTTP/1.1" 200 351 "-" "curl/8.5.0"
+2025-07-11T23:44:35.219Z [INFO]: Deleted mock: POST /api/orders
+2025-07-11T23:44:35.222Z [INFO]: ::1 - - [11/Jul/2025:23:44:35 +0000] "DELETE /admin/mocks/47485398-0d4a-43a0-ad3e-98ef336da458 HTTP/1.1" 204 - "-" "curl/8.5.0"
+2025-07-11T23:44:35.255Z [INFO]: Deleted mock: GET /api/products
+2025-07-11T23:44:35.257Z [INFO]: ::1 - - [11/Jul/2025:23:44:35 +0000] "DELETE /admin/mocks/72bf2774-713b-40fc-b275-afe92f06f013 HTTP/1.1" 204 - "-" "curl/8.5.0"
+2025-07-11T23:44:48.497Z [INFO]: ::ffff:127.0.0.1 - - [11/Jul/2025:23:44:48 +0000] "GET /api/users HTTP/1.1" 200 12 "-" "lwp-request/6.76 libwww-perl/6.76"
+2025-07-11T23:44:56.665Z [INFO]: Detección de cierre (SIGINT). Creando backup...
+2025-07-11T23:44:56.669Z [INFO]: Backup guardado en: /home/andres/mock-api-service/TigoChallenge/backups/backup-logs-2025-07-11T23-44-56-667Z.json

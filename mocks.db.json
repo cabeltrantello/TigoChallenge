@@ -1,7 +1,7 @@
 {
     "mocks": [
         {
-            "id": "029531e0-c1e4-4b26-956c-4eea913e5a6d",
+            "id": "5126cd9f-6bc6-4b31-a1e2-5ffae2f5b316",
             "active": true,
             "path": "/api/users",
             "method": "GET",
@@ -18,70 +18,38 @@
             "queryParams": {},
             "headers": {},
             "conditions": [],
-            "createdAt": "2025-07-11T20:02:12.494Z",
-            "updatedAt": "2025-07-11T20:02:12.494Z"
-        },
-        {
-            "id": "7bce62b5-80e1-45bc-91a6-daebeffb9e82",
-            "active": true,
-            "path": "/api/products",
-            "method": "GET",
-            "response": {
-                "body": {
-                    "products": [
-                        {
-                            "id": 1,
-                            "name": "Laptop"
-                        },
-                        {
-                            "id": 2,
-                            "name": "Phone"
-                        }
-                    ]
-                },
-                "headers": {
-                    "X-Test": "true"
-                },
-                "status": 200,
-                "latency": 0
-            },
-            "queryParams": {},
-            "headers": {},
-            "conditions": [],
-            "createdAt": "2025-07-11T20:02:12.517Z",
-            "updatedAt": "2025-07-11T20:02:12.517Z"
-        },
-        {
-            "id": "750447f8-83ce-4781-a6ec-2f95c359e150",
-            "active": true,
-            "path": "/api/orders",
-            "method": "POST",
-            "response": {
-                "body": {
-                    "message": "Order created"
-                },
-                "headers": {
-                    "Content-Type": "application/json"
-                },
-                "status": 201,
-                "latency": 0
-            },
-            "queryParams": {},
-            "headers": {},
-            "conditions": [],
-            "createdAt": "2025-07-11T20:02:12.532Z",
-            "updatedAt": "2025-07-11T20:02:12.532Z"
+            "createdAt": "2025-07-11T23:42:15.238Z",
+            "updatedAt": "2025-07-11T23:42:15.238Z"
         }
     ],
     "logs": [
         {
-            "id": "3dda8f69-0a6b-4dcd-a14f-7f1a4c5ac382",
-            "mockId": "029531e0-c1e4-4b26-956c-4eea913e5a6d",
+            "id": "87c30bd5-eabe-41fe-98c9-694ea4b9773d",
+            "mockId": "5126cd9f-6bc6-4b31-a1e2-5ffae2f5b316",
             "method": "GET",
             "path": "/api/users",
             "status": 200,
-            "latency": 3,
-            "timestamp": "2025-07-11T20:02:28.877Z",
+            "latency": 9,
+            "timestamp": "2025-07-11T23:42:30.879Z",
+            "request": {
+                "headers": {
+                    "te": "deflate,gzip;q=0.3",
+                    "connection": "TE, close",
+                    "host": "localhost:3000",
+                    "user-agent": "lwp-request/6.76 libwww-perl/6.76"
+                },
+                "query": {},
+                "body": {}
+            }
+        },
+        {
+            "id": "bb7eeff5-a2b0-4de4-8090-adec70e5b157",
+            "mockId": "5126cd9f-6bc6-4b31-a1e2-5ffae2f5b316",
+            "method": "GET",
+            "path": "/api/users",
+            "status": 200,
+            "latency": 1,
+            "timestamp": "2025-07-11T23:44:48.496Z",
             "request": {
                 "headers": {
                     "te": "deflate,gzip;q=0.3",
