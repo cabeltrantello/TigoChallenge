@@ -2,25 +2,24 @@ const fs = require('fs').promises;
 const path = require('path');
 const db = require('../../src/config/litedb');
 
-async function crearBackupLocal() {
+async function createBackupLocal() {
   try {
-    db.reload(); // 💥 recarga la base desde mocks.db.json
+    db.reload();
 
     let logs = db.getData('/logs') || [];
 
-    // Si logs no es un array pero es un objeto tipo {"0": {...}, "1": {...}}, convertirlo
     if (!Array.isArray(logs)) {
       if (typeof logs === 'object' && logs !== null) {
-        console.warn('🛠️ Logs data no es un array. Convirtiendo objeto indexado a array...');
+        console.warn('🛠️ Logs data is not an array. Converting indexed object to array...');
         logs = Object.values(logs);
       } else {
-        console.warn('⚠️ Logs data no válida. Se omitirá el backup.');
+        console.warn('⚠️ Invalid log data. The backup will be skipped.');
         logs = [];
       }
     }
 
     if (!logs.length) {
-      console.warn('⚠️ No hay logs que respaldar.');
+      console.warn('⚠️ There are no logs to back up.');
       return;
     }
 
@@ -32,10 +31,10 @@ async function crearBackupLocal() {
 
     await fs.writeFile(filePath, JSON.stringify(logs, null, 2), 'utf8');
 
-    console.log(`✅ Backup guardado en: ${filePath}`);
+    console.log(`✅ Backup saved in: ${filePath}`);
   } catch (error) {
-    console.error('❌ Error guardando backup:', error);
+    console.error('❌ Error saving backup:', error);
   }
 }
 
-crearBackupLocal();
+createBackupLocal();

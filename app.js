@@ -8,7 +8,7 @@ const { handleMockRequest } = require('./src/controllers/mock.controller');
 const { errorHandler } = require('./src/utils/error.util');
 const logger = require('./src/utils/logger.util');
 
-const db = require('./src/config/litedb'); // Ajusta ruta si es distinta
+const db = require('./src/config/litedb');
 
 const app = express();
 
@@ -29,7 +29,6 @@ app.listen(config.port, () => {
   `);
 });
 
-// Función para crear backup local con logs
 async function crearBackupLocal() {
   try {
     const logs = db.getData('/logs') || [];
@@ -47,7 +46,6 @@ async function crearBackupLocal() {
   }
 }
 
-// Escuchar Ctrl+C o terminación para crear backup antes de cerrar
 process.on('SIGINT', async () => {
   logger.info('Detección de cierre (SIGINT). Creando backup...');
   await crearBackupLocal();

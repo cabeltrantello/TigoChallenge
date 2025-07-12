@@ -1,14 +1,14 @@
 // src/services/validation.service.js
 // eslint-disable-next-line no-unused-vars
-const Joi = require('joi'); // Joi is used for type hinting and schema creation elsewhere, not directly in this function
+const Joi = require('joi'); 
 const logger = require('../utils/logger.util');
 
 /**
- * Valida los datos de entrada contra un esquema Joi.
- * @param {object} data - Los datos a validar.
- * @param {Joi.Schema} schema - El esquema Joi para la validación.
- * @returns {object} Los datos validados y saneados.
- * @throws {Error} Si la validación falla.
+ * 
+ * @param {object} data 
+ * @param {Joi.Schema} schema 
+ * @returns {object} 
+ * @throws {Error} 
  */
 const validate = (data, schema) => {
 

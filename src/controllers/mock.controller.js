@@ -22,7 +22,6 @@ const logRequest = (req, res, startTime, mockId) => {
   };
 
   try {
-    // Aquí también espera si db.push es async
     const pushResult = db.push('/logs[]', logEntry, true);
     if (pushResult instanceof Promise) {
       pushResult.catch(error => {

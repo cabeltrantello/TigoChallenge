@@ -7,7 +7,6 @@ const { validate } = require('../services/validation.service');
 const logger = require('../utils/logger.util');
 const { formatError } = require('../utils/error.util');
 
-// Handle validation errors - MOVIDA AL PRINCIPIO
 const handleValidationError = (res, error) => {
   if (error.name === 'ValidationError') {
     logger.warn(`Validation error: ${error.message}`);
@@ -107,9 +106,8 @@ const deleteMock = async (req, res) => {
       return res.status(404).json(formatError('Mock not found'));
     }
 
-    const deletedMock = mocks[index]; // Guardamos para log
+    const deletedMock = mocks[index];
 
-    // Eliminar sin esperar retorno iterable
     await db.delete(`/mocks[${index}]`);
 
     logger.info(`Deleted mock: ${deletedMock.method} ${deletedMock.path}`);
